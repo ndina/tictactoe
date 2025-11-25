@@ -11,14 +11,14 @@ Python. The project follows a modular architecture with:
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 - Python **3.9 or newer** (3.10/3.11 recommended)
 - `pytest` (optional, for running tests)
 
 ---
 
-## ▶️ Running the Game
+##  Running the Game
 
 From the project root:
 
@@ -28,7 +28,7 @@ python play.py
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 Make sure your `PYTHONPATH` includes the project root:
 
@@ -48,7 +48,7 @@ pytest
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 tictactoe/
@@ -79,7 +79,7 @@ tictactoe/
 
 ---
 
-## ✨ Notes
+##  Notes
 
 - `MinimaxAI` uses alpha-beta pruning.
 - `Move` objects are immutable (`@dataclass(frozen=True)`).
